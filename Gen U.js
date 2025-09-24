@@ -84,7 +84,7 @@ function refreshTable(entries) {
 
     row.insertCell(0).innerHTML = `
       <strong>${entry.funder}</strong><br>
-      <small>Contributors:<br>
+      <small>Withdrawee:<br>
         ${entry.contributors && entry.contributors.length > 0
           ? entry.contributors.map(c => `${c.name} (₹${c.amount})`).join('<br>')
           : 'None'}
@@ -147,3 +147,4 @@ function clearForm() {
   document.getElementById('contributorAmount').value = '';
 
 }
+
