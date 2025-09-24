@@ -1,0 +1,81 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fef6f9;
+      color: #4a4a4a;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #d16ba5;
+      font-weight: 600;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    input {
+      padding: 8px;
+      width: 250px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #a2d2ff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-right: 5px;
+    }
+
+    button:hover {
+      background-color: #bde0fe;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #ffc8dd;
+      color: #4a4a4a;
+    }
+
+    .actions button {
+      background-color: #cdb4db;
+    }
+
+    .actions button:hover {
+      background-color: #e2cfea;
+    }
+
+    #fundingNeeded, #totalFundingNeeded {
+      font-weight: 500;
+      color: #ffafcc;
+      margin-top: 10px;
+      background-color: #fff0f5;
+      padding: 10px;
+      border-radius: 8px;
+      line-height: 1.6;
+    }
