@@ -23,7 +23,7 @@ function addContributor() {
   function updateContributorPreview() {
   const preview = document.getElementById('contributorPreview');
   if (currentContributors.length === 0) {
-    preview.innerHTML = 'No contributors added yet.';
+    preview.innerHTML = 'No withdrawer added yet.';
   } else {
   }
 }
@@ -145,4 +145,5 @@ function clearForm() {
   document.getElementById('funderName').value = '';
   document.getElementById('contributorName').value = '';
   document.getElementById('contributorAmount').value = '';
+
 }
