@@ -32,13 +32,13 @@
   <label>Funding Provided By:</label>
   <input type="text" id="funderName">
 
-  <label>Contributor Name:</label>
+  <label>Withdrawer Name:</label>
   <input type="text" id="contributorName">
 
-  <label>Amount Contributed: ₹</label>
+  <label>Amount Withdrawn: ₹</label>
   <input type="number" id="contributorAmount">
 
-  <button onclick="addContributor()">Add Contributor</button>
+  <button onclick="addContributor()">Add Withdrawer</button>
   <button id="addBtn" onclick="addOrUpdateFunding()">Add Funding</button>
   <button onclick="sortEntries('desc')">Sort by Most Recent</button>
   <button onclick="sortEntries('asc')">Sort by Oldest</button>
@@ -61,4 +61,5 @@
     <tbody id="fundingTable"></tbody>
   </table>
 </body>
+
 </html>
