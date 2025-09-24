@@ -1,7 +1,7 @@
 {
   "name": "Funding Tracker",
   "short_name": "FundingApp",
-  "start_url": "Gen U.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fef6f9",
   "theme_color": "#d16ba5",
@@ -12,4 +12,5 @@
       "type": "image/png"
     }
   ]
+
 }
