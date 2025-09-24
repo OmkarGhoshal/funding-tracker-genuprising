@@ -2,7 +2,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('funding-cache').then(cache => {
       return cache.addAll([
-        'Gen U.html',
+        'index.html',
         'Gen U.json',
         'Main.png'
       ]);
@@ -16,4 +16,5 @@ self.addEventListener('fetch', event => {
       return response || fetch(event.request);
     })
   );
+
 });
